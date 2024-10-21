@@ -1,0 +1,140 @@
+/* General setup; do not change the given CSS code. Add your own CSS code at the bottom! */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Lato&display=swap');
+
+
+body {
+  font-family: 'Merriweather', serif;
+}
+
+h1, h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1rem; 
+}
+
+body {
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+}
+
+h1, h2 {
+  letter-spacing: 0.05em;
+}
+
+h1 {
+  text-align: center;
+}
+
+section h2 + p {
+  text-indent: 1.25rem;
+}
+
+a {
+  color: #a66;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #845;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+a:active {
+  color: #c55;
+  font-weight: bold;
+}
+
+a[href^="http"]:after {
+  content: '';
+  display: inline-block;
+  width: 1em;    /* Set the width to match the font size */
+  height: 1em;   /* Set the height to match the font size */
+  margin-left: 0.3em;
+  background-image: url('external-link-52.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle; /* Align the icon with the text */
+}
+
+ul, ol {
+  line-height: 1.6;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+li {
+  list-style-type: disc;
+  margin-left: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: #f4f4f4;
+}
+
+nav ul li a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  color: #333;
+}
